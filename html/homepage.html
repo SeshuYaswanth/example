@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent & Acquistion Search</title>
+
+    <!-- Css Links -->
+    <link rel="stylesheet" href="../Css/homepage.css">
+
+    <!-- icon link -->
+    <link rel="icon" href="../images/icon.png">
+
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- BootStrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+
+    <script src="../JavaScript/index.js"></script>
+</head>
+<body>
+    <!--  Home Page -->
+    <!-- The main page video container -->
+    <div class="videoContent">
+
+        <!-- The homepage Video -->
+        <video id="home" class="homeVideo" src="../videos/landor_continuousbloom_wide.mp4" autoplay muted playsinline loop>Your Browser doesnot support Video Tag</video>
+
+        <!-- navbar -->
+        <nav id="navbar" class="navbar">
+            <div class="container">
+                <!-- nav Logo -->
+                <span id="logo" class="navbar-brand mb-0 h1">P & A</span>
+                <!-- The Menu Button -->
+                <button id="menuButton" class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list"></i></button>
+                <!-- The hiding Content -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" data-bs-scroll="true" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div id="listContainer" class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li id="listItems" class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li id="listItems" class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li id="listItems" class="nav-item"><a class="nav-link" href="#ourTeam">Our Team</a></li>
+                        <li id="listItems" class="nav-item"><a class="nav-link" href="#contact">Contact us</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- The Slogan -->
+        <div class="container">
+            <h1 id="headingSlogan">
+                <span id="firstSpan">We</span><br>
+                <span id="secondSpan">push</span><br>
+                <span id="thirdSpan">for more</span><br>
+            </h1>
+        </div>
+
+        <!-- The Arrow -->
+        <div id="Arrow" class="container">
+            <a id="arrowLink" class="shake-vertical" href="#about"><i id="arrowIcon" class="bi bi-arrow-bar-down"></i></a>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="navbarContainer">
+            <div class="navContainer">
+                <i><h1 class="navFont">P<span class="spans">&</span>A</h1></i>
+            </div>
+            <div>
+                <ul class="listParent">
+                    <a class="navLinks" href="#home"><li class="listChildren">Home</li></a>
+                    <a class="navLinks" href="#about"><li class="listChildren">About</li></a>
+                    <a class="navLinks" href="#ourTeam"><li class="listChildren">Our Team</li></a>
+                    <a class="navLinks" href="#contact"><li class="listChildren">Contact us</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="contentContainer">
+            <!-- Content -->
+            <div id="content">
+                <img id="globe" src="../images/globe.svg" alt="Globe">
+                <p id="contentPara">Global volume of technical information being generated and documented is growing at a very rapid rate. There are variety of information sources with different features and tools. However one cannot rely on any single source for all the information needs. This assignment is aimed at providing a brief overview of all the tools, sources used in patent searching.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section id="ourTeam">
+        <div id="cardContainer">
+            <div id="guideCard">
+                <img id="cardImage" src="../images/man.png" alt="Man">
+                <div id="cardContent">
+                    <h5>Our Guide</h5>
+                    <p>T.P.V.V Srinivas Rao, M.Tech.</p>
+                </div>
+            </div>
+        </div>
+        <div id="teamCard">
+            <div id="leadCard">
+                <img id="cardImage" src="../images/man.png" alt="Man">
+                <div id="cardContent">
+                    <h5>Team Lead</h5>
+                    <p>K. Seshu Yaswanth Reddy</p>
+                </div>
+            </div>
+            <div id="leadCard">
+                <img id="cardImage" src="../images/girl.png" alt="girl">
+                <div id="cardContent">
+                    <h5>Team Member</h5>
+                    <p>K. Deepika</p>
+                </div>
+            </div>
+            <div id="leadCard">
+                <img id="cardImage" src="../images/man.png" alt="Man">
+                <div id="cardContent">
+                    <h5>Team Member</h5>
+                    <p>K. Rahul Reddy</p>
+                </div>
+            </div>
+            <div id="leadCard">
+                <img id="cardImage" src="../images/man.png" alt="Man">
+                <div id="cardContent">
+                    <h5>Team Member</h5>
+                    <p>V. Rosaiah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact us page -->
+    <section id="contact">
+        <div class="container">
+            <div id="connect">
+                <h4 id="connectHeading">Push your email we will connect with you.</h4>
+                <form id="form">
+                    <input id="input" type="text" placeholder="name" required>
+                    <input id="input" type="email" placeholder="email" required>
+                    <button id="btn">send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
